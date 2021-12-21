@@ -1,0 +1,42 @@
+.DesignerPanel__Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 80vh;
+  width: fit-content;
+  background-color: #101c34;
+  border-radius: 15px;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+.DesignerPanel__Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  border-bottom: 2px solid white;
+}
+.DesignerPanel__Menu__img {
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.DesignerPanel__Menu__img:hover {
+  transform: scale(1.5);
+}
+.DesignerPanel__Shapes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+}
+/*.MuiInputBase-input {
+  color: white !important;
+}*/

@@ -1,0 +1,24 @@
+{
+  "title": "Material demo",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "description": "https://github.com/mui-org/material-ui/blob/master/docs/src/pages/components/container/SimpleContainer.js",
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "4.11.2",
+    "@reduxjs/toolkit": "1.6.1",
+    "localforage": "1.9.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-flow-renderer": "9.6.6"
+  },
+  "name": "material-demo-forked",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
